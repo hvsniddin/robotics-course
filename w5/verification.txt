@@ -1,0 +1,64 @@
+Lab 5 offline verification
+Configuration: one default wheel, no external load, 11.2 V.
+Python 3.13.1; NumPy 2.5.4; SciPy 1.18.1; Matplotlib 3.11.2
+PASS plot.py (isolated temporary copy)
+Found wheels: [1]
+Graph saved to: motor_graphs.png
+
+=== Mean Coefficients U/ω (V·s/°) ===
+  Wheel 1: 0.01072 V·s/°
+PASS plot_omega.py (isolated temporary copy)
+Found wheels: [1]
+Saved plot to: omega_all_wheels.png
+PASS isolated plotting copies match preserved data for all 41 PWM levels.
+PASS fitting.py
+Generated report and plots; wheel 1 k_e=0.71550; no-motion PWM=[0]
+PASS all source measurement files and original QRS remain byte-for-byte unchanged.
+PASS 41 result rows; all 40 moving runs fitted without hitting time-constant bounds.
+PASS strict timestamps, full PWM coverage, and ODE/analytical agreement checked by fitting.py.
+PASS report image links resolve.
+Source SHA-256 checksums:
+a30cca8dc8bbc96bbfac3308fbcca312359881fcf0decf305c341430a37b9658  motor_data_240060.txt
+ca4e7d5a4ea56b4367534f6838d822b06ec3478120c2a442de809970a22ab190  collect_data.qrs
+fc8d24dee8bc0d4d085dcad89391072b9e20968576f60113c9ac3de634632c4f  motor_data/wheel_1_battery.txt
+169fc5179828591385c6e3adc612449a982d2091f752bf076a9090bb717d3c41  motor_data/wheel_1_v_-10.txt
+29a0d030f7d39ad719599d11fa2d20a22d65e36a2512e2bd23809ebf7dcdcd96  motor_data/wheel_1_v_-100.txt
+5d0d136a629a8941eabd7a8b6abf42d66ad71950d40649039a970cf6606e4cab  motor_data/wheel_1_v_-15.txt
+2f8fe4d4ca978e91a9b3b054f064a9606bb7843c69d1df14f174b0177706199c  motor_data/wheel_1_v_-20.txt
+d6192b18f9b1658411920415769d1a0420d2689002eaf62b33c6799a5c3ee3cb  motor_data/wheel_1_v_-25.txt
+a145875b0fae0f3596be0d96fedb2538c836123e4e201a3da52ed44a7506e8f6  motor_data/wheel_1_v_-30.txt
+0abb09fdc1df2355702f77ea19f1b6c667e5936b8cc511d3c0c925be5c897438  motor_data/wheel_1_v_-35.txt
+7d8f1262507f04080c07cfbb748439b8da8b44058d1c70655248b8a35b5788cd  motor_data/wheel_1_v_-40.txt
+1f46ae0f180eb51ef0484c8bcc5c6fb6e6de5d09bacae3a1277bddb5976b6110  motor_data/wheel_1_v_-45.txt
+203ba33a2cbfa4929289d603bb34a67d1a2ddcc88e264cba58254df982518895  motor_data/wheel_1_v_-5.txt
+ba541dca50694f0d6749e62d96a73a320593c43c7d960f004c3a5692399472fb  motor_data/wheel_1_v_-50.txt
+8cf5a487b589cccdf26a3b07ca5a7deb4d5e320b530c17cd1ffb90c412f84cbc  motor_data/wheel_1_v_-55.txt
+a7e5550ccfdf52a48368662385ba24ba0f110e8158690a4dd99b8d75bda258bc  motor_data/wheel_1_v_-60.txt
+4f8ada703ab7db16c7884fb1c2f73b9358dc09adaef28d272c77f239ac7b7b08  motor_data/wheel_1_v_-65.txt
+13df5e0c33d6204ba802b5d00cc03164ce8aeaaad504ba98457d9d6a54525451  motor_data/wheel_1_v_-70.txt
+92f49f1a5d127ccc52d0a1672d87a411c553b49a7f0743946133bc4675ee4213  motor_data/wheel_1_v_-75.txt
+9db356688e38b9ac717ed0da1da287261babafc941f530fdc58328283ba1f3c0  motor_data/wheel_1_v_-80.txt
+fb28e0a1f5cae20eb9f4018114ccd21dea15844f67aa3fae78ed9e675b93c2da  motor_data/wheel_1_v_-85.txt
+cb62157cf773e3a0137bdfc70baed334b07256e242fac0de0fa81be540c94e64  motor_data/wheel_1_v_-90.txt
+4fff29721d8df0553a52f6ed8fd1b37eea58188282090f740c92796bb9d49fa6  motor_data/wheel_1_v_-95.txt
+86f3daee886b485d050d58466590812d257d7d35bbdcf729d1d9b5fb2205d070  motor_data/wheel_1_v_0.txt
+f991dfa0ad8fcb0b7483e8cb4e4d5abd80b4224ab1af65bcc9cdc929df3d7207  motor_data/wheel_1_v_10.txt
+a241c02d57c804b22bcaca64e05009d87ae5f3c428e0205065025abafe94009b  motor_data/wheel_1_v_100.txt
+009ed4b1e82356b186ebc18e6e6f240f0d96e50c4e34433903c15a89d66089a3  motor_data/wheel_1_v_15.txt
+1777a0bb911ae591f480c533327aa4e051c5276f25cd83acfd4713155448a6bb  motor_data/wheel_1_v_20.txt
+37cb13e977253fae7a9e17ac65f3f3b31d1d7356412428d24e5baddb0029c59a  motor_data/wheel_1_v_25.txt
+debe8cfede606ced301fd175a4ba46febac4f4450c6863e62fc4fa9dcbac73cd  motor_data/wheel_1_v_30.txt
+bad2cc6efc9f0a722ff3efdb4a9ed8566eae7f685f421fc4cacfdf4fe1f44e31  motor_data/wheel_1_v_35.txt
+a1400ad25cac61bfc333e1b8e6cfa333c8c499a41f302927b0e641e76e37f094  motor_data/wheel_1_v_40.txt
+c4b7910986a8f0cea444d79132e43f97b857f6e0f876bc9bdf4780894769a993  motor_data/wheel_1_v_45.txt
+45070a51194072d6d25e3e014d572e1dee731343cd2f175649adaf5b7914fd63  motor_data/wheel_1_v_5.txt
+25e169e738a04fb06b7ce37819e2f138cc2d2e4b7acef9fded0aaaa4e1c39348  motor_data/wheel_1_v_50.txt
+62baf80aebba643c010ccd18a90611f4ba6784c147a4812099f5a24837ae95bc  motor_data/wheel_1_v_55.txt
+4e82dbd0bee06f5ddd478ff1181406a28efb803f9241eb2f5d13f452db27d74d  motor_data/wheel_1_v_60.txt
+e900ead267da8efd2607613a1c5f7a28851b65b683620b59797ffb2c641f2f13  motor_data/wheel_1_v_65.txt
+e99d038f83fad116eec31ede08c003f5b651fab1360d2069f5e900383599efd8  motor_data/wheel_1_v_70.txt
+5c23f92ad7c9247ae0efc7883b26d241686036be263607c14783a6d2f35aa771  motor_data/wheel_1_v_75.txt
+0dd208af8ec62a0f2dfa46c1dec897cc139cd56751c2bcbf10e1e0c3ade24bda  motor_data/wheel_1_v_80.txt
+3df1e134eef06ef981cb7790f452b7c2f67d1e22ca9f3542f7d3fc166cc1e2c8  motor_data/wheel_1_v_85.txt
+42e99f09ec06eac008a5070495faf83db1a1d7a65d2f1610185f8bd171e67c5b  motor_data/wheel_1_v_90.txt
+8a5f10e1d3ce331d6d2e00d27185ca6dea5e6a078fc63d18ff7ba28bbbb09397  motor_data/wheel_1_v_95.txt
