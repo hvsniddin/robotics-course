@@ -32,7 +32,6 @@ python3 -m venv .venv
 | `motor_data_240060.txt` | Preserved consolidated measurement log |
 | `motor_data/` | Existing splits, checked sample-for-sample against the log |
 | `fitting.py` | Authoritative analysis and report generator |
-| `build_submission.py`, `verification.txt` | Reproduction, checks and packaging |
 | `requirements.txt` | Analysis dependencies |
 | `collect_data.qrs` | Original saved project, preserved unchanged |
 | `plot.py`, `plot_omega.py`, `motor_graphs.png` | Earlier processing/degree-based exploratory plots |
