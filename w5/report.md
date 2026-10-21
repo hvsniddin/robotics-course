@@ -61,7 +61,3 @@ I calculated U = 11.2 × PWM/100 V from the measured battery voltage and fitted 
 > **Identified T_m: 0.04186 s at +100% PWM; 0.04346 s at −100% PWM.**
 
 ![Measured angle, encoder-derived speed and simulated model at ±100% PWM](step_responses_fit.png)
-
-## Discussion
-
-The linear speed–voltage model fits poorly at intermediate PWM, and T_m changes with PWM, so one fixed model does not describe the full range. Friction near zero and the extra load when driving on the floor also limit the model. I cannot quantify the difference between the two wheels because I only measured one. If their speeds differ at equal PWM, the robot will curve, and assuming equal speeds in next week's odometry will cause heading and position errors. Using each wheel's encoder readings accounts for this speed difference, although wheel-size errors and slip will still affect odometry.
