@@ -4,10 +4,10 @@
 
 ## Report contents
 
-- All 41 PWM levels (−100% to +100%, in 5% steps), with T_m, steady-state speed, angle RMSE and sample counts.
+- T_m and steady-state speed for all 41 PWM levels (−100% to +100%, in 5% steps).
 - Speed versus applied voltage in SI units, fitted k_e and the unresolved dead-zone threshold bracket.
-- Measured angle and numerical first-order ODE simulation at +50% PWM.
-- Discussion of nonlinear behavior, direction asymmetry, sampling limitations and odometry.
+- Four-panel comparison of measured angle, encoder-derived speed and the simulated model at ±100% PWM.
+- Five sentences on model limitations, the missing second-wheel comparison and odometry.
 
 ## Reproduce
 
