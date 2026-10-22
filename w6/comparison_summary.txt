@@ -1,0 +1,32 @@
+REAL ROBOT VS SIMULATOR — ODOMETRY COMPARISON
+
+Each clock is reset to its first logged sample; times are in seconds.
+Positions retain their recorded origins, scale and heading.
+Display rotations are applied equally to real and simulated data.
+Simulation is interpolated onto real timestamps within the shared duration.
+The exact overlap endpoint is included; no extrapolation is used.
+Mean and RMSE use these comparison samples (not time-weighted).
+Differences include timing/speed differences, not just path shape.
+Simulator odometry is a reference, not measured ground truth.
+
+Digit 6
+  Samples: real 461, simulator 1317
+  Duration: real 13.721 s, simulator 13.160 s
+  Path length: real 4.195 m, simulator 4.701 m
+  Shared time interval: 0 to 13.160 s
+  Mean position difference: 0.232 m
+  Position RMSE: 0.258 m
+  Maximum position difference: 0.547 m
+  Position difference at overlap end: 0.544 m
+  Endpoint separation (different finish times): 0.365 m
+
+Digit 0
+  Samples: real 444, simulator 1487
+  Duration: real 15.818 s, simulator 14.860 s
+  Path length: real 4.661 m, simulator 5.390 m
+  Shared time interval: 0 to 14.860 s
+  Mean position difference: 0.223 m
+  Position RMSE: 0.247 m
+  Maximum position difference: 0.501 m
+  Position difference at overlap end: 0.232 m
+  Endpoint separation (different finish times): 0.256 m
