@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-27",
+  "real_log_origin": "root@192.168.50.254:/home/root/trik/scripts/nav_data_60_real.csv",
+  "real_project_origin": "Supplied go_to_goal_60_real.qrs; preserved unchanged as go_to_goal_real.qrs",
+  "simulator_origin": "New TRIK Studio 2026.2 diagram-mode run with half-size waypoints and the same gains, power limit and tolerance as the real program; simulator geometry only differs",
+  "simulator_settings": {
+    "k_dist": 0.6,
+    "k_angle": 5,
+    "max_power_percent": 70,
+    "acceptance_radius_m": 0.1,
+    "r_m": 0.028,
+    "W_m": 0.154,
+    "wait_ms": 20
+  },
+  "real_settings": {
+    "k_dist": 0.6,
+    "k_angle": 5,
+    "max_power_percent": 70,
+    "acceptance_radius_m": 0.1,
+    "r_m": 0.042,
+    "W_m": 0.194,
+    "wait_ms": 20
+  },
+  "raw_columns": [
+    "x_m",
+    "y_m",
+    "time_ms",
+    "goal_index",
+    "distance_m",
+    "heading_error_rad",
+    "left_power",
+    "right_power",
+    "drawing_flag"
+  ],
+  "export_rule": "Keep every row. Multiply columns 0 and 1 by 100 to obtain cm, retain recorded time in column 2 as ms. No header. No resampling, clock resetting, or additional coordinate halving. Coordinates saved to ten decimal places in cm.",
+  "files": {
+    "data/nav_data_60_real.csv": {
+      "bytes": 51471,
+      "sha256": "55e1d72389826b52fbc78dbea36a05547d73f1fd74fda51a2ae3ce4f41379976"
+    },
+    "data/nav_data_60_sim_matched.csv": {
+      "bytes": 403710,
+      "sha256": "7a5bba55431df87476a55c93f5776aad1980dc3ec359c9906242808c79844483"
+    },
+    "go_to_goal_sim.qrs": {
+      "bytes": 67178,
+      "sha256": "080521d55ce56890c58ba1174b19f9216456c6ac5a33a2bad295ccf38be05fc8"
+    },
+    "go_to_goal_real.qrs": {
+      "bytes": 68871,
+      "sha256": "e4bbe770d9d372675d426f368232fab20f7530ab43efa1b4d317d164fb41c092"
+    },
+    "odometry_data_sim.txt": {
+      "bytes": 116070,
+      "sha256": "2f2f71476ba92e2610d79edf051a015c69e03dda7d8bffa8a77701b4c46383a8"
+    },
+    "odometry_data_real.txt": {
+      "bytes": 14858,
+      "sha256": "cf0c0ee35a44b35251942e522c28f6018407f769ebcffc34c629e46bc48b1b82"
+    }
+  },
+  "original_real_project_sha256_before_title_change": "d9766b442d2967952e9ba199e3f2e04df9d5f6ddc55c4b458258c9bb5b253a28",
+  "diagram_title_edit": "go_to_goal_real.qrs: diagram name changed to Program Diagram; all blocks, links, settings and code are unchanged."
+}
