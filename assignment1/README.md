@@ -14,11 +14,6 @@ The M4 step pair is the original runs 3 and 4, renamed consistently as runs 1 an
 Each measurement row gives encoder angle in degrees, time in milliseconds and motor power in percent.
 `battery.txt` records the battery readings and test conditions.
 
-## Run the analysis
-
-Open the notebook and run all cells. In Google Colab, first upload `analysis_data.zip` into the Files pane.
-The notebook saves eight graphs and the short report in `analysis_outputs/`.
-
 ## Robot programs
 
 - `motor_steps.qrs`: M4 step tests.
