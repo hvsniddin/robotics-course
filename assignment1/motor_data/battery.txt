@@ -1,0 +1,8 @@
+Battery readings
+
+11.4 V: measured before the M3 step tests and the square-wave tests.
+11.3 V: measured before the M4 step pair.
+
+The readings were taken before testing, not separately before and after every run.
+The analysis uses them as estimates of the voltage during the recordings.
+The wheels were lifted so they could spin freely without load.
