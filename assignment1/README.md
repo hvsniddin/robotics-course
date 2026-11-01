@@ -1,7 +1,6 @@
 # Assignment 1: motor identification
 
 Start with `robotics_lab5_240060.ipynb`. It contains the calculations, graphs and discussion.
-For a shorter explanation, read `analysis_outputs/summary.md`.
 
 ## Measurements
 
