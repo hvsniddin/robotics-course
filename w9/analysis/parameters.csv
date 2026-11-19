@@ -1,0 +1,13 @@
+parameter,symbol,value,unit,method
+Offset (baseline),b0,2.413529182879377,deg/s,First 30 s mean
+Offset (own calibration),b0,2.4125351562499997,deg/s,First 30 s mean after 3-sigma rejection
+Bias drift,d,-0.013667960927919642,deg/s/min,Line through 30-s window means
+"Heading drift, uncorrected",,144.0489434783007,deg/min,Line through integrated static rate
+Lower measurement limit,-omega_max,-286.44,deg/s,Minimum rotation reading
+Upper measurement limit,+omega_max,286.685,deg/s,Maximum rotation reading
+Resolution,Delta,0.008,deg/s,Smallest nonzero spacing in static readings
+Noise standard deviation,sigma,0.07489868897050311,deg/s,"3-min static log, initial bias subtracted"
+Measurement noise variance,R,0.005609813609500165,(deg/s)^2,Static rate variance
+Scale-factor error CCW,s,-5.868987255198731,%,Mean angle-fit error in unclipped CCW turns
+Scale-factor error CW,s,-4.6338001471559265,%,Mean angle-fit error in unclipped CW turns
+Positive rotation direction,,CCW,,Gyro and encoder rate signs

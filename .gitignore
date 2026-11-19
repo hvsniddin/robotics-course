@@ -4,3 +4,5 @@ __pycache__/
 *.pyo
 *.pyd
 .venv/
+.lab-backups/
+lastCode.py
